@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Design</title>
+    <!--- iconscout-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet">
+<!--==========swiper js================-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <nav>
+<div class="container nav_container">
+    <a href="#"><h4>EGATOR</h4></a> 
+    <div class="nav_menu">
+        <li><a href="html.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="courses.html">COURSES</a></li>
+        <li><a href="contact.html">CONTACTS</a></li>
+      
+    </div>
+    <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+    <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+</div>
+    </nav>  
+
+<!----nab bar end-->
+
+
+
+
+
+
+
+
+<header>
+
+
+    <div class="container header_container" >
+<div class="header_left">
+<h1>Build up your skills</h1>
+<p>Web Documents are often Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                 </p>
+<a href="course.htmkl" class="btn btn-primary">Get started</a>
+</div>
+
+    <div class="header_right">
+        <div class="header_right-image">
+            <img src="data:image/jpeg;base64,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">
+        </div>
+
+    </div>
+    </div>
+</header>
+
+
+
+<!---------END OF HEADER---------->
+
+
+<section class="container_header" style="text-align: center;">
+    <div class="categories categories_container" >
+    <div class="categories_left">
+        <h2>
+            categories
+        </h2>
+        <p> Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+            The way I've heard some people talk about “best practices” for 
+            handwritten note
+       <br>
+        <a href="#" class="btn" >learn More</a>
+        </p>
+    </div>
+    
+     <div class="categories_right">
+        <article class="category">
+            <span class="category_icon"><i class="uil uil-bitcoin"></i></span>
+            <h5>Blackchain</h5>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers</p>
+        </article>
+
+        <article class="category">
+            <span class="category_icon"><i class="uil uil-book-open"></i></span>
+            <h5>Blackchain</h5>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers</p>
+        </article>
+
+        <article class="category">
+            <span class="category_icon"><i class="uil uil-blogger"></i></span>
+            <h5>Blackchain</h5>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers</p>
+        </article>
+
+        <article class="category">
+            <span class="category_icon"><i class="uil uil-brain"></i></span>
+            <h5>Blackchain</h5>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers</p>
+        </article>
+
+        <article class="category">
+            <span class="category_icon"><i class="uil uil-bullseye"></i></span>
+            <h5>Blackchain</h5>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers</p>
+        </article>
+
+        <article class="category">
+            <span class="category_icon"><i class="uil uil-chart"></i></span>
+            <h5>Blackchain</h5>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers</p>
+        </article>
+     </div>
+    </div>
+</section>
+<!----------------end 0f categoties------------------------>
+
+
+<section class="courses">
+<h2>our popular courses</h2>
+    <div class="container courses_container">
+        <article class="course">
+            <div class="course_image">
+                <img src="https://media.istockphoto.com/photos/webinar-elearning-skills-business-internet-technology-concepts-picture-id1366428092">
+
+            </div>
+            <div class="course_info">
+            <h4>responsive web site design</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+                <a herf="course.html" class="btn btn-primary">learn more</a>
+            </div>
+            </article>
+
+
+        <article class="course">
+            <div class="course_image">
+                <img src="https://media.istockphoto.com/photos/education-on-internet-technology-elearning-education-and-internet-picture-id1352742022"/>
+
+            </div>
+            <div class="course_info">
+            <h4>web devlopment</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+                <a herf="course.html" class="btn btn-primary">learn more</a>
+            </div>
+        </article>
+      
+       
+       
+
+        <article class="course">
+            <div class="course_image">
+                <img src="https://media.istockphoto.com/photos/focused-cute-stylish-african-american-female-student-with-afro-picture-id1311107708">
+
+            </div>
+            <div class="course_info">
+            <h4>micro processers design</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+                <a herf="course.html" class="btn btn-primary">learn more</a>
+            </div>
+        </article>
+    
+        
+    
+        
+    </div>
+
+</section>
+<!----end of courses----->
+
+<section class="faqs">
+    <h2>
+        Frequently asked questions
+    </h2>
+<div class="container faqs_container">
+
+    <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+            <h4>whats your aim ?</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+        </div>
+    </article>
+
+
+    <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+            <h4>whats your aim ?</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+        </div>
+    </article>
+
+
+    <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+            <h4>whats your aim ?</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+        </div>
+    </article>
+    <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+            <h4>whats your aim ?</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+        </div>
+    </article>
+
+
+    <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+            <h4>whats your aim ?</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+        </div>
+    </article>
+
+
+    <article class="faq">
+        <div class="faq_icon"><i class="uil uil-plus"></i></div>
+        <div class="question_answer">
+            <h4>whats your aim ?</h4>
+            <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                The way I've heard some people talk about “best practices” for 
+                handwritten note</p>
+        </div>
+    </article>
+</div>
+
+
+
+</section>
+
+
+<!----------End of faqs-------------->
+
+
+
+
+
+<section class="container testimonials_container mySwiper" style="text-align: center;">
+    <h2>Testimonials</h2>
+    
+    <div class="swiper-wrapper">
+    
+        <article class="testimonial swiper-slide">
+    <div class="avatar">
+        <img class="image_1" src="https://i.pravatar.cc/150?img=64">
+    </div>
+    <div class="testimonial_info">
+        <h5>Paul Mahesh</h5>
+        <small>student</small>
+    </div>
+        <div class="testimonial_body">
+        <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+            The way I've heard some people talk about “best practices” for 
+            handwritten note</p>
+        </div>
+    
+        </article>
+    
+    
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img class="image_1" src="https://i.pravatar.cc/150?img=69">
+            </div>
+            <div class="testimonial_info">
+                <h5>Nayak</h5>
+                <small>web devloper</small>
+            </div>
+                <div class="testimonial_body">
+                <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                    The way I've heard some people talk about “best practices” for 
+                    handwritten note</p>
+                </div>
+            
+                </article>
+    
+    
+                <article class="testimonial swiper-slide">
+    <div class="avatar">
+        <img class="image_1" src="https://i.pravatar.cc/150?img=67">
+    </div>
+    <div class="testimonial_info">
+        <h5>Rajashekar</h5>
+        <small>Coder</small>
+    </div>
+       <div class="testimonial_body">
+        <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+            The way I've heard some people talk about “best practices” for 
+            handwritten note</p>
+        </div>
+                 </article>
+    
+        <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img class="image_1" src="https://i.pravatar.cc/150?img=16">
+            </div>
+            <div class="testimonial_info">
+                <h5>Nani</h5>
+                <small>graphics design</small>
+            </div>
+                <div class="testimonial_body">
+                <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                    The way I've heard some people talk about “best practices” for 
+                    handwritten note</p>
+                </div>
+                </article>
+
+
+                <article class="testimonial swiper-slide">
+                    <div class="avatar">
+                        <img class="image_1" src="https://i.pravatar.cc/150?img=64">
+                    </div>
+                    <div class="testimonial_info">
+                        <h5>Paul yabesh</h5>
+                        <small>student</small>
+                    </div>
+                        <div class="testimonial_body">
+                        <p>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+                            The way I've heard some people talk about “best practices” for 
+                            handwritten note</p>
+                        </div>                
+                        </article>
+    </div>
+    <div class="swiper-pagination"></div>
+    </section>
+<!------end of pagination---->
+
+
+
+
+
+<footer class="fotter"  style="text-align:center">
+    <div class="container fotter_container">
+<div class="fotter_1">
+    <a href="index.html " class="fotter_logo"><h4><strong>EGATOR</strong></h4></a>
+    <P>Free Scripts for Writing Handwritten Notes That Wow Your Customers.
+        The way I've heard </P>
+</div>
+
+<div class="fotter_2">
+<h4><strong>Permalinks</strong></h4>
+<ui class="permalinks">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="courses.html">COURSES</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+</ui>
+
+</div>
+
+
+<div class="fotter_3">
+    <h4><strong>Primacy</strong></h4>
+    <ui class="permalinks">
+        <li><a href="index.html">Privacy policy</a></li>
+        <li><a href="about.html">Terms and conditions</a></li>
+        <li><a href="courses.html">Refund policy</a></li>
+        <li><a href="contact.html">Contact ref</a></li>
+    </ui>
+    
+</div>
+
+
+
+<div class="fotter_4">
+    <h4>Contact Us</h4>
+  <div>
+<p>+91 703 644 1203</p>
+<p>maheshkoppula07@gmail.com</p>
+  </div>
+    
+
+
+
+<div class="fotter_social">
+    <h4>Permalinks</h4>
+    <ui class="permalinks">
+        <li><a href="index.html"><i class="uil uil-facebook-f"></i></a></li>
+        <li><a href="about.html"><i class="uil uil-instagram-alt"></i></a></li>
+        <li><a href="courses.html"><i class="uil uil-twitter"></i></a></li>
+        <li><a href="contact.html"><i class="uil uil-linkedin-alt"></i></a></li>
+    </ui>
+    
+    </div>
+
+</div>
+
+
+
+
+    </div>
+    <div class="fotter_copyright">
+        <small>Copyright &copy; EGATOR Youtube</small>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+<script src="./main.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },//when window is grater than 600
+      breakpoints:{
+
+        600:{ slidesPerView: 2
+
+        }
+      }
+    });
+  </script>
+</body>
+</html>
